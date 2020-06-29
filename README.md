@@ -97,7 +97,7 @@ Reflector B	(AE) (BN) (CK) (DQ) (FU) (GY) (HW) (IJ) (LO) (MP) (RX) (SZ) (TV)
 Reflector C	(AR) (BD) (CO) (EJ) (FN) (GT) (HK) (IV) (LM) (PW) (QZ) (SX) (UY)
 Figure 2. The rotors used in the Naval Enigma, showing the permutations they> implement and the point(s) at which there are notches that allow their left neighbor rotor to advance. Thus, when Rotor I is at 'Q' and the machine advances, the rotor to the left of Rotor I will advance. The Beta and Gamma rotors and the reflectors do not rotate. The reflectors shown here are the "thin" versions of the reflectors used in the naval M4 Enigma machine. The B reflector together with the Beta rotor in the 'A' position had the same effect as the usual ("thick") B reflector in the older three-rotor M3 Enigma machine (likewise the C reflector with the Gamma rotor). This allowed the M4 to encrypt and decrypt messages to and from M3 Enigmas. Source: Tony Sale's pages.
 
-Example
+## Example
 As an example of a translation, consider the set of rotors from Figure 2, and suppose that
 
 The rotors in positions 1--5 are, respectively, B, Beta, III, IV, and I.
