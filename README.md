@@ -4,11 +4,11 @@ The Enigma
 ### CS61B project 2
 
 --------------------------
-
+![screenshot](enigma2.jpg)
 ![screenshot](enigma.png)
-![screensho](enigma2.jpg)
 
-Background
+#Background
+
 You may have heard of the Enigma machines that Germany used during World War II to encrypt its military communications. If you have not, I recommend you read the wikipedia page on them, or similar resource, especially the part about design and operation. This project involves building a simulator for a generalized version of this machine (which itself had several different versions.) Your program will take descriptions of possible initial configurations of the machine and messages to encode or decode (the Enigma algorithms were reciprocal, meaning that encryption is its own inverse operation.)
 
 The Enigmas effect a substitution cipher on the letters of a message. That is, at any given time, the machine performs a permutation—a one-to-one mapping—of the alphabet onto itself. The alphabet consists solely of the 26 letters in one case (there were various conventions for spaces and punctuation).
@@ -41,7 +41,7 @@ So the advancement of the rotors, while similar to that of the wheels of an odom
 
 The effect of advancing a wheel is to change where on the wheel any given signal enters or leaves. When a wheel is in its 'A' setting in the machine, then a signal that arrives from the right at, say, the 'C' position, goes into the 'C' contact on the wheel. Likewise, a signal that leaves the wheel from its left 'C' contact exits at the 'C' position. When the wheel is rotated by one to its 'B' setting, a signal that arrives at the 'C' position goes instead into the 'D' contact on the wheel, and a signal that leaves through the 'D' contact does so at the 'C' position. It's easier to calculate if we use numbers 0--25 rather than letters ('A' is 0, 'B' is 1, etc.). Then, when the wheel is in its k setting, a signal entering at the p position enters the p+kmod26 contact on the wheel, and a signal exiting through the c contact does so at the c−kmod26 position. For example, Figure 1 shows one of the rotors from the real Enigma machines (called rotor "I") and the effect of moving from its 'A' to its 'B' setting.
 
-Rotor Example
+#Rotor Example
 
 Figure 1. Permutations performed by a rotor in its 'A' and 'B' settings. The italicized alphabets at the top and bottom indicate the letters corresponding to the positions around the rotor. The inner alphabets indicate the positions along the rotor itself. The rotor depicted was designated 'I' in the original Enigma machine used by the German military.
 
