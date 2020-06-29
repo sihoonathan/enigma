@@ -1,16 +1,11 @@
-# enigma
+The Enigma
+=============
+###### Data Structures (CS61B-Fa19) taught by Prof. Hilfinger at UC Berkeley 
+### CS61B project 2
 
-Project 1: The Enigma
-Introduction
-This programming assignment is intended to exercise a few useful data structures and an object-based view of a programming problem. There is some background reading, but the necessary program is not (or rather need not be) terribly big. The video walkthrough is located here.
+--------------------------
 
-We will be grading largely on whether you manage to get your program to work (according to our tests). In addition, we will be looking at your own tests (which you should be sure to turn in as well). While we have supplied a few unit tests and some simple integration tests and testing utilities, the tests in the skeleton are entirely inadequate for testing your program. There is also a stylistic component: the grading machinery require that your program pass a mechanized style check (style61b), which mainly checks for formatting and the presence of comments in the proper places. See the course website for a brief description of the style rules. You may change any of the code we've provided, as long as the resulting program works according to the specifications here.
-
-To obtain the skeleton files (and set up an initial entry for your project in the repository), you can use the command sequence
-
-git fetch shared
-git merge shared/proj1 -m "Get proj1 skeleton"
-from your Git working directory. Should we update the skeleton, you can use exactly the same sequence to update your project with the same changes.
+![screenshot](enigma.png)
 
 Background
 You may have heard of the Enigma machines that Germany used during World War II to encrypt its military communications. If you have not, I recommend you read the wikipedia page on them, or similar resource, especially the part about design and operation. This project involves building a simulator for a generalized version of this machine (which itself had several different versions.) Your program will take descriptions of possible initial configurations of the machine and messages to encode or decode (the Enigma algorithms were reciprocal, meaning that encryption is its own inverse operation.)
